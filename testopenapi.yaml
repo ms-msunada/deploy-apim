@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: "Large API Example"
+  description: "This is a large OpenAPI example designed to test Azure API Management import capabilities."
+  version: "1.0.0"
+servers:
+  - url: "https://api.example.com/v1"
+paths:
+  /endpoint1:
+    get:
+      summary: "Endpoint 1"
+      description: "This is a sample endpoint 1."
+      operationId: "getEndpoint1"
+      responses:
+        '200':
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "This is the response for endpoint 1."
+  /endpoint2:
+    get:
+      summary: "Endpoint 2"
+      description: "This is a sample endpoint 2."
+      operationId: "getEndpoint2"
+      responses:
+        '200':
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "This is the response for endpoint 2."
+  /endpoint3:
+    get:
+      summary: "Endpoint 3"
+      description: "This is a sample endpoint 3."
+      operationId: "getEndpoint3"
+      responses:
+        '200':
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "This is the response for endpoint 3."
