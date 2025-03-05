@@ -5,7 +5,8 @@ info:
   version: "1.0.0"
 servers:
   - url: "https://api.example.com/v1"
-paths:  /endpoint1:
+paths:
+  /endpoint1:
     get:
       summary: 'Endpoint 1'
       description: 'This is a sample endpoint 1. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. This is a long description for endpoint. '
